@@ -4,9 +4,16 @@
 
 C$50 Finance is a web app via which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying IEX for stocks’ prices.
 
-To use this project after you forked the repo, you will need to get an API key from [IEX](iexcloud.io/cloud-login#/register/) (free account registration), which lets you download stock quotes via their API (application programming interface) using URLs like https://cloud.iexapis.com/stable/stock/nflx/quote?token=API_KEY
+To use this project after you forked the repo, you will need to get an API key from [IEX](iexcloud.io/cloud-login#/register/) (free account registration), which lets you download stock quotes via their API.
 
-With the API, run the following command within an IDE's terminal: $ export API_KEY=API.
+Visit [IEX](iexcloud.io/cloud-login#/register/)
+
+- Select the “Individual” account type, then enter your name, email address, and a password, and click “Create account”.
+- Once registered, scroll down to “Get started for free” and click “Select Start plan” to choose the free plan.
+- Once you’ve confirmed your account via a confirmation email, visit https://iexcloud.io/console/tokens.
+  Copy the KEY that appears under the Token column (it should begin with pk\_).
+
+With the KEY, run the following command within an IDE's terminal: $ export API_KEY=KEY.
 
 Start Flask’s built-in web server:
 $ flask run
