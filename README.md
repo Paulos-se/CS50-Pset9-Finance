@@ -24,6 +24,7 @@ $ flask run
 - app.py (lots of routing, logics, and Sqlite3 QUERIES)
 - `users`and`portfolio` tables to keep track of all stock and transactions by all users. It is stored in finance.db
 - requirements.txt to install
+- helpers.py that implements apology page, login, lookup symbols and formats currencies in USD.
 
 ## Flask app file structure:
 
