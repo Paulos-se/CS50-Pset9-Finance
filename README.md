@@ -14,7 +14,7 @@ $ flask run
 - register, quote, buy, index, sell and history templates with Jinja dynamic content generation
 - app.py (lots of routing, logics, and Sqlite3 QUERIES)
 - `users`and`portfolio` tables to keep track of all stock and transactions by all users. It is stored in finance.db
--requirements.txt to install
+- requirements.txt to install
 
 ## Flask app file structure:
 
