@@ -2,6 +2,8 @@
 
 ## Full-stack web app made with Bootstrap, Flask back-end, and SQLite3 database.
 
+C$50 Finance is a web app via which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying IEX for stocks’ prices.
+
 To use this project after you forked the repo, you will need to get an API key from [IEX](iexcloud.io/cloud-login#/register/) (free account registration), which lets you download stock quotes via their API (application programming interface) using URLs like https://cloud.iexapis.com/stable/stock/nflx/quote?token=API_KEY
 
 With the API, run the following command within an IDE's terminal: $ export API_KEY=API.
