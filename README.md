@@ -53,14 +53,3 @@ Make use of TEMPLATES: factor out a COMMON layout.html
 
 #### Privacy concern: In dev environment: store personal info in .env files (export username=..., and later retrieve via os.getenv("USERNAME"))
 
-### Cookie Session in Flask
-
-- Session: basically, servers plants cookie (i.e. a saved state, a file, a large number) on your device, to help them remember your identity.
-- How it works? BROWSER (if have a cookie) sends cookie along with GET requests, and SERVER: validates, then skip login during same sesson, server personal data, etc.
-- ENTER Incognito mode: not employing cookies.
-
-_Callback_: a function that will eventually be called, when it has an answer for you.
-
-### An AJAX call
-
-sends additional HTTP request to server (for chat messages, autocomplete, etc.). So WHEN the response is ready, the callback function would receive the response as its argument.
