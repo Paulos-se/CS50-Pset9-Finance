@@ -51,5 +51,5 @@ Make use of TEMPLATES: factor out a COMMON layout.html
 - {% block body %} {% endblock %}
 - in index.html, about.html, etc.: {% extends "layout.html" %} {% block body %} the content {% endblock %}
 
-#### Privacy concern: In dev environment: store personal info in .env files (export username=..., and later retrieve via os.getenv("USERNAME"))
+
 
